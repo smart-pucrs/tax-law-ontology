@@ -1,0 +1,1797 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/root/ontologies/2020/0/untitled-ontology-34"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/root/ontologies/2020/0/untitled-ontology-34">
+    <Prefix name="" IRI="http://www.semanticweb.org/root/ontologies/2020/0/untitled-ontology-34"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>2019/2 PUCRS</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Autores:
+- Larissa Magistrali - Escola Politécnica - PUCRS
+- João Lucídio - Escola de Direito - PUCRS</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Advogado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Advogado_privado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Advogado_público"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analista_judiciário"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aviso_de_recebimento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aviso_de_recebimento_negativo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aviso_de_recebimento_positivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aviso_de_recebimento_recusado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bacenjud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Certidão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Certidão_de_dívida_ativa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Certidão_de_dívida_ativa_inválida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Certidão_de_dívida_ativa_válida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Certidão_negativa_de_débito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Citação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Competência_tributária"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contribuinte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contribuição_de_melhoria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Convenção-internacional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crédito_tributário"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dado_contido_na_certidão_de_dívida_ativa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dados_do_destinatário_insuficientes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decreto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destinatário_ausente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destinatário_não_procurado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Devedor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direito_administrativo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direito_constitucional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direito_privado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direito_público"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direito_tributário"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Documento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dívida_ativa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Escrivão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estagiário"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Execução_fiscal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Falecimento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fato_gerador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fisco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fisco_distrital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fisco_estadual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fisco_federal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fisco_municipal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hipótese_de_incidência_tributária"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Homem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Impeditivo_da_execução_fiscal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Impeditivo_por_exclusão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Impeditivo_por_extinção"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Impeditivo_por_suspensão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imposto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imposto_sobre_a_propriedade_predial_e_territorial_urbana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imposto_sobre_a_transmissão_de_bens_imóveis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imposto_sobre_serviços_de_qualquer_natureza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Juiz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Juiz-federal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Juiz_estadual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jurisdicionado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lançamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lançamento_de_ofício"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lançamento_por_declaração"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lançamento_por_homologação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legislação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lei"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lei_complementar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lei_ordinária"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motivo_de_devolução_de_aviso_de_recebimento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motivo_desconhecido"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mudança"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mulher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Norma_complementar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Número_inexistente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obrigação_tributária"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obrigação_tributária_acessória"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obrigação_tributária_principal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oficial_de_justiça"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oficial_escrevente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pessoa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Petição_inicial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Procurador_da_república"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Procurador_municipal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Profissional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Promotor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Propriedade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Propriedade_predial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Propriedade_territorial_rural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Propriedade_territorial_urbana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Renajud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Responsável"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Serventuário"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taxa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taxa_de_polícia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taxa_de_serviço"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tratado_internacional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tributo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Técnico_judiciário"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Área_do_direito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#apresenta_o_dado"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#constitui_um_crédito_tributário"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#delimita_o_tributo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#delimitado_por_hipótese_de_incidência"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#deve_pagar_imposto_sobre_a_propriedade_predial_e_territorial_urbana"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#devedor_citado"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#exigível_a_partir_do_lançamento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#faz_a_cobrança_de_tributo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#faz_exigível_a_obrigação_tributária"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#gera_uma_obrigação_tributária"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#institui_a_hipótese_de_incidência"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#institui_um_tributo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#instituída_por_lei"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#não_deve_pagar_imposto_sobre_a_propriedade_predial_e_territorial_urbana"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#permite_a_existência_de_tributo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#permite_a_existência_de_uma_execução_fiscal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#possui_dívida_ativa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#possui_propriedade_predial"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#possui_propriedade_territorial_urbana"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#possui_um_motivo_de_devolução"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#realiza_a_citação"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#realizada_por_aviso_de_recebimento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é_a_concretização_da_hipótese_de_incidência"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é_delimitado_por_uma_hipótese_de_incidência_tributária"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é_um_impeditivo_para_a_execução_fiscal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é_um_requisito_para_a_execução_fiscal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é_uma_certidão_de_dívida_ativa_inválida"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é_uma_certidão_de_dívida_ativa_válida"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apartamento1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Casa1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Data"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Execução_fiscal1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Imposto_sobre_propriedade_predial_e_territorial_urbana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Informação_do_livro_e_folha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nome_do_devedor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Número_do_processo_administrativo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Origem_do_crédito"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pessoa1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pessoa2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pessoa3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pessoa4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prédio1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quantia_devida"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Convenção-internacional"/>
+        <Class IRI="#Tratado_internacional"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Advogado"/>
+        <Class IRI="#Profissional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Advogado_privado"/>
+        <Class IRI="#Advogado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Advogado_público"/>
+        <Class IRI="#Advogado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Analista_judiciário"/>
+        <Class IRI="#Serventuário"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aviso_de_recebimento"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aviso_de_recebimento_negativo"/>
+        <Class IRI="#Aviso_de_recebimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aviso_de_recebimento_positivo"/>
+        <Class IRI="#Aviso_de_recebimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aviso_de_recebimento_recusado"/>
+        <Class IRI="#Motivo_de_devolução_de_aviso_de_recebimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacenjud"/>
+        <Class IRI="#Sistema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Certidão"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Certidão_de_dívida_ativa"/>
+        <Class IRI="#Certidão"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Certidão_de_dívida_ativa_inválida"/>
+        <Class IRI="#Certidão_de_dívida_ativa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Certidão_de_dívida_ativa_válida"/>
+        <Class IRI="#Certidão_de_dívida_ativa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Certidão_negativa_de_débito"/>
+        <Class IRI="#Certidão"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contribuinte"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contribuição_de_melhoria"/>
+        <Class IRI="#Tributo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Convenção-internacional"/>
+        <Class IRI="#Legislação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dados_do_destinatário_insuficientes"/>
+        <Class IRI="#Motivo_de_devolução_de_aviso_de_recebimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decreto"/>
+        <Class IRI="#Legislação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Destinatário_ausente"/>
+        <Class IRI="#Motivo_de_devolução_de_aviso_de_recebimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Destinatário_não_procurado"/>
+        <Class IRI="#Motivo_de_devolução_de_aviso_de_recebimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Devedor"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direito_administrativo"/>
+        <Class IRI="#Direito_público"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direito_constitucional"/>
+        <Class IRI="#Direito_público"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direito_privado"/>
+        <Class IRI="#Área_do_direito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direito_público"/>
+        <Class IRI="#Área_do_direito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direito_tributário"/>
+        <Class IRI="#Direito_público"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edital"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Escrivão"/>
+        <Class IRI="#Serventuário"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estagiário"/>
+        <Class IRI="#Serventuário"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Falecimento"/>
+        <Class IRI="#Motivo_de_devolução_de_aviso_de_recebimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fisco_distrital"/>
+        <Class IRI="#Fisco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fisco_estadual"/>
+        <Class IRI="#Fisco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fisco_federal"/>
+        <Class IRI="#Fisco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fisco_municipal"/>
+        <Class IRI="#Fisco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Homem"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Impeditivo_por_exclusão"/>
+        <Class IRI="#Impeditivo_da_execução_fiscal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Impeditivo_por_extinção"/>
+        <Class IRI="#Impeditivo_da_execução_fiscal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Impeditivo_por_suspensão"/>
+        <Class IRI="#Impeditivo_da_execução_fiscal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Imposto"/>
+        <Class IRI="#Tributo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Imposto_sobre_a_propriedade_predial_e_territorial_urbana"/>
+        <Class IRI="#Imposto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Imposto_sobre_a_transmissão_de_bens_imóveis"/>
+        <Class IRI="#Imposto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Imposto_sobre_serviços_de_qualquer_natureza"/>
+        <Class IRI="#Imposto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Juiz"/>
+        <Class IRI="#Profissional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Juiz-federal"/>
+        <Class IRI="#Juiz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Juiz_estadual"/>
+        <Class IRI="#Juiz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jurisdicionado"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lançamento_de_ofício"/>
+        <Class IRI="#Lançamento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lançamento_por_declaração"/>
+        <Class IRI="#Lançamento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lançamento_por_homologação"/>
+        <Class IRI="#Lançamento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lei"/>
+        <Class IRI="#Legislação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lei_complementar"/>
+        <Class IRI="#Lei"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lei_ordinária"/>
+        <Class IRI="#Lei"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motivo_desconhecido"/>
+        <Class IRI="#Motivo_de_devolução_de_aviso_de_recebimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mudança"/>
+        <Class IRI="#Motivo_de_devolução_de_aviso_de_recebimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mulher"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Norma_complementar"/>
+        <Class IRI="#Legislação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Número_inexistente"/>
+        <Class IRI="#Motivo_de_devolução_de_aviso_de_recebimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obrigação_tributária_acessória"/>
+        <Class IRI="#Obrigação_tributária"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obrigação_tributária_principal"/>
+        <Class IRI="#Obrigação_tributária"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oficial_de_justiça"/>
+        <Class IRI="#Serventuário"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oficial_escrevente"/>
+        <Class IRI="#Serventuário"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Petição_inicial"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Procurador_da_república"/>
+        <Class IRI="#Profissional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Procurador_municipal"/>
+        <Class IRI="#Advogado_público"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Profissional"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Promotor"/>
+        <Class IRI="#Profissional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propriedade_predial"/>
+        <Class IRI="#Propriedade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propriedade_territorial_rural"/>
+        <Class IRI="#Propriedade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propriedade_territorial_urbana"/>
+        <Class IRI="#Propriedade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Renajud"/>
+        <Class IRI="#Sistema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Responsável"/>
+        <Class IRI="#Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serventuário"/>
+        <Class IRI="#Profissional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxa"/>
+        <Class IRI="#Tributo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxa_de_polícia"/>
+        <Class IRI="#Taxa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxa_de_serviço"/>
+        <Class IRI="#Taxa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tratado_internacional"/>
+        <Class IRI="#Legislação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Técnico_judiciário"/>
+        <Class IRI="#Serventuário"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Aviso_de_recebimento"/>
+        <Class IRI="#Certidão"/>
+        <Class IRI="#Edital"/>
+        <Class IRI="#Petição_inicial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Aviso_de_recebimento_negativo"/>
+        <Class IRI="#Aviso_de_recebimento_positivo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bacenjud"/>
+        <Class IRI="#Renajud"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Certidão_de_dívida_ativa"/>
+        <Class IRI="#Certidão_negativa_de_débito"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Contribuição_de_melhoria"/>
+        <Class IRI="#Imposto"/>
+        <Class IRI="#Taxa"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Convenção-internacional"/>
+        <Class IRI="#Decreto"/>
+        <Class IRI="#Lei"/>
+        <Class IRI="#Norma_complementar"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Direito_administrativo"/>
+        <Class IRI="#Direito_constitucional"/>
+        <Class IRI="#Direito_tributário"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Direito_privado"/>
+        <Class IRI="#Direito_público"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Homem"/>
+        <Class IRI="#Mulher"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Imposto_sobre_a_propriedade_predial_e_territorial_urbana"/>
+        <Class IRI="#Imposto_sobre_a_transmissão_de_bens_imóveis"/>
+        <Class IRI="#Imposto_sobre_serviços_de_qualquer_natureza"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Taxa_de_polícia"/>
+        <Class IRI="#Taxa_de_serviço"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Propriedade_territorial_urbana"/>
+        <NamedIndividual IRI="#Apartamento1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Propriedade_territorial_urbana"/>
+        <NamedIndividual IRI="#Casa1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Certidão_de_dívida_ativa"/>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Certidão_de_dívida_ativa"/>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Certidão_de_dívida_ativa"/>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dado_contido_na_certidão_de_dívida_ativa"/>
+        <NamedIndividual IRI="#Data"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Execução_fiscal"/>
+        <NamedIndividual IRI="#Execução_fiscal1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Imposto_sobre_a_propriedade_predial_e_territorial_urbana"/>
+        <NamedIndividual IRI="#Imposto_sobre_propriedade_predial_e_territorial_urbana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dado_contido_na_certidão_de_dívida_ativa"/>
+        <NamedIndividual IRI="#Informação_do_livro_e_folha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dado_contido_na_certidão_de_dívida_ativa"/>
+        <NamedIndividual IRI="#Nome_do_devedor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dado_contido_na_certidão_de_dívida_ativa"/>
+        <NamedIndividual IRI="#Número_do_processo_administrativo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dado_contido_na_certidão_de_dívida_ativa"/>
+        <NamedIndividual IRI="#Origem_do_crédito"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa"/>
+        <NamedIndividual IRI="#Pessoa1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa"/>
+        <NamedIndividual IRI="#Pessoa2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa"/>
+        <NamedIndividual IRI="#Pessoa3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa"/>
+        <NamedIndividual IRI="#Pessoa4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Propriedade_predial"/>
+        <NamedIndividual IRI="#Prédio1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dado_contido_na_certidão_de_dívida_ativa"/>
+        <NamedIndividual IRI="#Quantia_devida"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta_o_dado"/>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa1"/>
+        <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta_o_dado"/>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa1"/>
+        <NamedIndividual IRI="#Informação_do_livro_e_folha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta_o_dado"/>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa1"/>
+        <NamedIndividual IRI="#Nome_do_devedor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta_o_dado"/>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa1"/>
+        <NamedIndividual IRI="#Número_do_processo_administrativo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta_o_dado"/>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa1"/>
+        <NamedIndividual IRI="#Origem_do_crédito"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta_o_dado"/>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa1"/>
+        <NamedIndividual IRI="#Quantia_devida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta_o_dado"/>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa2"/>
+        <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta_o_dado"/>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa2"/>
+        <NamedIndividual IRI="#Informação_do_livro_e_folha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta_o_dado"/>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa2"/>
+        <NamedIndividual IRI="#Nome_do_devedor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta_o_dado"/>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa2"/>
+        <NamedIndividual IRI="#Origem_do_crédito"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta_o_dado"/>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa2"/>
+        <NamedIndividual IRI="#Quantia_devida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta_o_dado"/>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa3"/>
+        <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta_o_dado"/>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa3"/>
+        <NamedIndividual IRI="#Informação_do_livro_e_folha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta_o_dado"/>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa3"/>
+        <NamedIndividual IRI="#Origem_do_crédito"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta_o_dado"/>
+        <NamedIndividual IRI="#Certidão_de_dívida_ativa3"/>
+        <NamedIndividual IRI="#Quantia_devida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possui_propriedade_territorial_urbana"/>
+        <NamedIndividual IRI="#Pessoa1"/>
+        <NamedIndividual IRI="#Casa1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possui_propriedade_territorial_urbana"/>
+        <NamedIndividual IRI="#Pessoa2"/>
+        <NamedIndividual IRI="#Apartamento1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possui_propriedade_predial"/>
+        <NamedIndividual IRI="#Pessoa3"/>
+        <NamedIndividual IRI="#Prédio1"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#delimita_o_tributo"/>
+        <ObjectProperty IRI="#delimitado_por_hipótese_de_incidência"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#apresenta_o_dado"/>
+        <Class IRI="#Certidão_de_dívida_ativa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#constitui_um_crédito_tributário"/>
+        <Class IRI="#Lançamento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#delimita_o_tributo"/>
+        <Class IRI="#Hipótese_de_incidência_tributária"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#delimitado_por_hipótese_de_incidência"/>
+        <Class IRI="#Tributo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#deve_pagar_imposto_sobre_a_propriedade_predial_e_territorial_urbana"/>
+        <Class IRI="#Pessoa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#devedor_citado"/>
+        <Class IRI="#Pessoa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#exigível_a_partir_do_lançamento"/>
+        <Class IRI="#Obrigação_tributária"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#faz_a_cobrança_de_tributo"/>
+        <Class IRI="#Fisco"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#faz_exigível_a_obrigação_tributária"/>
+        <Class IRI="#Lançamento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#gera_uma_obrigação_tributária"/>
+        <Class IRI="#Fato_gerador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#institui_a_hipótese_de_incidência"/>
+        <Class IRI="#Lei"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#institui_um_tributo"/>
+        <Class IRI="#Lei"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#instituída_por_lei"/>
+        <Class IRI="#Hipótese_de_incidência_tributária"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#não_deve_pagar_imposto_sobre_a_propriedade_predial_e_territorial_urbana"/>
+        <Class IRI="#Pessoa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#permite_a_existência_de_tributo"/>
+        <Class IRI="#Competência_tributária"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#permite_a_existência_de_uma_execução_fiscal"/>
+        <Class IRI="#Certidão_de_dívida_ativa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#possui_dívida_ativa"/>
+        <Class IRI="#Pessoa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#possui_propriedade_predial"/>
+        <Class IRI="#Pessoa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#possui_propriedade_territorial_urbana"/>
+        <Class IRI="#Pessoa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#possui_um_motivo_de_devolução"/>
+        <Class IRI="#Aviso_de_recebimento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realiza_a_citação"/>
+        <Class IRI="#Aviso_de_recebimento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realizada_por_aviso_de_recebimento"/>
+        <Class IRI="#Citação"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é_a_concretização_da_hipótese_de_incidência"/>
+        <Class IRI="#Fato_gerador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é_delimitado_por_uma_hipótese_de_incidência_tributária"/>
+        <Class IRI="#Tributo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é_um_impeditivo_para_a_execução_fiscal"/>
+        <Class IRI="#Impeditivo_por_exclusão"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é_um_impeditivo_para_a_execução_fiscal"/>
+        <Class IRI="#Impeditivo_por_extinção"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é_um_impeditivo_para_a_execução_fiscal"/>
+        <Class IRI="#Impeditivo_por_suspensão"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é_um_requisito_para_a_execução_fiscal"/>
+        <Class IRI="#Certidão_de_dívida_ativa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é_um_requisito_para_a_execução_fiscal"/>
+        <Class IRI="#Citação"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é_um_requisito_para_a_execução_fiscal"/>
+        <Class IRI="#Crédito_tributário"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é_um_requisito_para_a_execução_fiscal"/>
+        <Class IRI="#Fato_gerador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é_um_requisito_para_a_execução_fiscal"/>
+        <Class IRI="#Hipótese_de_incidência_tributária"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é_um_requisito_para_a_execução_fiscal"/>
+        <Class IRI="#Lançamento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é_um_requisito_para_a_execução_fiscal"/>
+        <Class IRI="#Lei"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é_um_requisito_para_a_execução_fiscal"/>
+        <Class IRI="#Obrigação_tributária"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é_uma_certidão_de_dívida_ativa_inválida"/>
+        <Class IRI="#Certidão_de_dívida_ativa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é_uma_certidão_de_dívida_ativa_válida"/>
+        <Class IRI="#Certidão_de_dívida_ativa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#apresenta_o_dado"/>
+        <Class IRI="#Dado_contido_na_certidão_de_dívida_ativa"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#constitui_um_crédito_tributário"/>
+        <Class IRI="#Crédito_tributário"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#delimita_o_tributo"/>
+        <Class IRI="#Tributo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#delimitado_por_hipótese_de_incidência"/>
+        <Class IRI="#Hipótese_de_incidência_tributária"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#deve_pagar_imposto_sobre_a_propriedade_predial_e_territorial_urbana"/>
+        <Class IRI="#Imposto_sobre_a_propriedade_predial_e_territorial_urbana"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#devedor_citado"/>
+        <Class IRI="#Citação"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#exigível_a_partir_do_lançamento"/>
+        <Class IRI="#Lançamento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#faz_a_cobrança_de_tributo"/>
+        <Class IRI="#Tributo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#faz_exigível_a_obrigação_tributária"/>
+        <Class IRI="#Obrigação_tributária"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#gera_uma_obrigação_tributária"/>
+        <Class IRI="#Obrigação_tributária"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#institui_a_hipótese_de_incidência"/>
+        <Class IRI="#Hipótese_de_incidência_tributária"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#institui_um_tributo"/>
+        <Class IRI="#Tributo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#instituída_por_lei"/>
+        <Class IRI="#Lei"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#não_deve_pagar_imposto_sobre_a_propriedade_predial_e_territorial_urbana"/>
+        <Class IRI="#Imposto_sobre_a_propriedade_predial_e_territorial_urbana"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#permite_a_existência_de_tributo"/>
+        <Class IRI="#Tributo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#permite_a_existência_de_uma_execução_fiscal"/>
+        <Class IRI="#Execução_fiscal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#possui_dívida_ativa"/>
+        <Class IRI="#Dívida_ativa"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#possui_propriedade_predial"/>
+        <Class IRI="#Propriedade_predial"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#possui_propriedade_territorial_urbana"/>
+        <Class IRI="#Propriedade_territorial_urbana"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#possui_um_motivo_de_devolução"/>
+        <Class IRI="#Motivo_de_devolução_de_aviso_de_recebimento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#realiza_a_citação"/>
+        <Class IRI="#Citação"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#realizada_por_aviso_de_recebimento"/>
+        <Class IRI="#Aviso_de_recebimento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é_a_concretização_da_hipótese_de_incidência"/>
+        <Class IRI="#Hipótese_de_incidência_tributária"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é_delimitado_por_uma_hipótese_de_incidência_tributária"/>
+        <Class IRI="#Hipótese_de_incidência_tributária"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é_um_impeditivo_para_a_execução_fiscal"/>
+        <Class IRI="#Execução_fiscal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é_um_requisito_para_a_execução_fiscal"/>
+        <Class IRI="#Execução_fiscal"/>
+    </ObjectPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>REGRA COMPLEMENTAR (protégé não identifica a seguinte regra):
+
+Certidão-de-dívida-ativa(?Ce), (not (Certidão-de-dívida-ativa-válida))(?Ce) -&gt; Certidão-de-dívida-ativa-inválida(?Ce)</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>§ 5º - O Termo de Inscrição de Dívida Ativa deverá conter:
+
+I - o nome do devedor, dos co-responsáveis e, sempre que conhecido, o domicílio ou residência de um e de outros;
+
+II - o valor originário da dívida, bem como o termo inicial e a forma de calcular os juros de mora e demais encargos previstos em lei ou contrato;
+
+III - a origem, a natureza e o fundamento legal ou contratual da dívida;
+
+IV - a indicação, se for o caso, de estar a dívida sujeita à atualização monetária, bem como o respectivo fundamento legal e o termo inicial para o cálculo;
+
+V - a data e o número da inscrição, no Registro de Dívida Ativa; e
+
+VI - o número do processo administrativo ou do auto de infração, se neles estiver apurado o valor da dívida.
+
+§ 6º - A Certidão de Dívida Ativa conterá os mesmos elementos do Termo de Inscrição e será autenticada pela autoridade competente.
+
+http://www.planalto.gov.br/ccivil_03/leis/l6830.htm</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Certidão_de_dívida_ativa"/>
+                <Variable IRI="urn:swrl:var#Ce"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#apresenta_o_dado"/>
+                <Variable IRI="urn:swrl:var#Ce"/>
+                <NamedIndividual IRI="#Nome_do_devedor"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#apresenta_o_dado"/>
+                <Variable IRI="urn:swrl:var#Ce"/>
+                <NamedIndividual IRI="#Quantia_devida"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#apresenta_o_dado"/>
+                <Variable IRI="urn:swrl:var#Ce"/>
+                <NamedIndividual IRI="#Origem_do_crédito"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#apresenta_o_dado"/>
+                <Variable IRI="urn:swrl:var#Ce"/>
+                <NamedIndividual IRI="#Data"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#apresenta_o_dado"/>
+                <Variable IRI="urn:swrl:var#Ce"/>
+                <NamedIndividual IRI="#Informação_do_livro_e_folha"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Certidão_de_dívida_ativa_válida"/>
+                <Variable IRI="urn:swrl:var#Ce"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Pessoas que possuem propriedade predial devem pagar o imposto IPTU.</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Pessoa"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Propriedade_predial"/>
+                <Variable IRI="urn:swrl:var#Pr"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#possui_propriedade_predial"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Pr"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Imposto_sobre_a_propriedade_predial_e_territorial_urbana"/>
+                <Variable IRI="urn:swrl:var#Im"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#deve_pagar_imposto_sobre_a_propriedade_predial_e_territorial_urbana"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Im"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Pessoas que possuem propriedade territorial urbana devem pagar o imposto IPTU.</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Pessoa"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Propriedade_territorial_urbana"/>
+                <Variable IRI="urn:swrl:var#Pr"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#possui_propriedade_territorial_urbana"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Pr"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Imposto_sobre_a_propriedade_predial_e_territorial_urbana"/>
+                <Variable IRI="urn:swrl:var#Im"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#deve_pagar_imposto_sobre_a_propriedade_predial_e_territorial_urbana"/>
+                <Variable IRI="urn:swrl:var#Pe"/>
+                <Variable IRI="urn:swrl:var#Im"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Advogado_privado</IRI>
+        <Literal>Advogado que deverá defender o devedor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Advogado_público</IRI>
+        <Literal>Advogado concursado que defende os interesses da sua respectiva Fazenda, iniciando a execução fiscal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aviso_de_recebimento</IRI>
+        <Literal>AR. Serviço opcional contratado pelos Correios que através do preenchimento do formulário, permite confirmar, junto ao remetente, a entrega do objeto ou carta por ele postado. Após a entrega da correspondência ao destinatário, o aviso retorna ao remetente com a assinatura da pessoa que recebeu o objeto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aviso_de_recebimento_negativo</IRI>
+        <Literal>Aviso de recebimento devolvido.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aviso_de_recebimento_positivo</IRI>
+        <Literal>Há comprovação da ciência do sujeito passivo acerca da execução fiscal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bacenjud</IRI>
+        <Literal>SIstema integrado com o Banco Central que permite bloquear contas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Certidão</IRI>
+        <Literal>Atestado ou declaração escrita e certificada por alguém qualificado; certificado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Certidão_de_dívida_ativa</IRI>
+        <Literal>Certidão de Dívida Ativa (CDA) atesta a certeza e liquidez do débito tributário, consubstanciando o título executivo extrajudicial após o não pagamento do crédito constituído e notificado ao devedor, que por sua vez não apresentou defesa ou a teve rejeitada.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Certidão_negativa_de_débito</IRI>
+        <Literal>Comprova que o contribuinte/responsável não tem débito com o respectivo Fisco que realizou a emissão da certidão.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Citação</IRI>
+        <Literal>Ato processual que realiza a integração do executado na execução fiscal. Ou seja, fará com que os sujeito passivo faça parte da relação processual.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Competência_tributária</IRI>
+        <Literal>A competência tributária é matéria de ordem constitucional, sendo elemento de limitação do Estado para instituir tributos. Ou seja, por meio da competência será dito quem pode cobrar (Município ou Estado ou DF ou União) e sobre o que pode incidirá, não estando previsto, nada poderá ser instituído.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Contribuinte</IRI>
+        <Literal>Contribuinte de IPTU: Contribuinte do imposto é o proprietário do imóvel, o titular do seu domínio útil, ou o seu possuidor a qualquer título.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Contribuinte</IRI>
+        <Literal>Pessoa que a lei determina com o dever de pagar tributo e arcar com obrigações acessórias.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Contribuição_de_melhoria</IRI>
+        <Literal>Instituída para fazer frente ao custo de obras públicas de que decorra valorização imobiliária, tendo como limite total a despesa realizada e como limite individual o acréscimo de valor que da obra resultar para cada imóvel beneficiado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Convenção-internacional</IRI>
+        <Literal>A convenção é um espécie de tratado solene (e multilateral) em que a vontade das partes não é propriamente divergente, como ocorre nos chamados tratados-contrato, mas paralela e uniforme.
+
+Atenta-se que, nas palvaras de Valério Mazzuoli, &quot; a distinção entre tratado e convenção, todavia, não subsiste a uma análise detalhada dos textos normativos internacionais, o que demonstra que ambos os significados ainda se confundem na atualidade.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Crédito_tributário</IRI>
+        <Literal>Valor pecuniário que pode ser cobrado do contribuinte/responsável pelo Estado (lato sensu) e que decorre do lançamento da obrigação tributária.
+Atenta-se para a terminologia usada, pois embora obrigação tributária e crédito tributária pareçam semelhantes, existem diferenças muito importantes entre eles. 
+
+* Obrigação tributária: decorre do simples fato gerador, não podendo ser cobrada;
+
+* Crédito tributário: decorre do lançamento, ou seja, a autoridade adminsitrativa já realizou a verificação dos dados da obrigação tributária e entendeu como adequados, constituindo o crédito tributário. Assim, fazendo possível a cobrança pela via administrativa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dado_contido_na_certidão_de_dívida_ativa</IRI>
+        <Literal>§ 5º - O Termo de Inscrição de Dívida Ativa deverá conter:
+
+I - o nome do devedor, dos co-responsáveis e, sempre que conhecido, o domicílio ou residência de um e de outros;
+
+II - o valor originário da dívida, bem como o termo inicial e a forma de calcular os juros de mora e demais encargos previstos em lei ou contrato;
+
+III - a origem, a natureza e o fundamento legal ou contratual da dívida;
+
+IV - a indicação, se for o caso, de estar a dívida sujeita à atualização monetária, bem como o respectivo fundamento legal e o termo inicial para o cálculo;
+
+V - a data e o número da inscrição, no Registro de Dívida Ativa; e
+
+VI - o número do processo administrativo ou do auto de infração, se neles estiver apurado o valor da dívida.
+
+§ 6º - A Certidão de Dívida Ativa conterá os mesmos elementos do Termo de Inscrição e será autenticada pela autoridade competente.
+
+http://www.planalto.gov.br/ccivil_03/leis/l6830.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Decreto</IRI>
+        <Literal>Ato administrativo de competência exclusiva do Chefe do Poder Executivo (Municipal, Estadual, Distrital ou Federal), a fim de prover situações gerais ou individuais, previstas de forma abstrata e sem contrariar a legislação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Devedor</IRI>
+        <Literal>Um devedor é uma entidade que deve uma dívida a outra entidade.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Direito_administrativo</IRI>
+        <Literal>Direito administrativo é um ramo autônomo, dentro do direito público, que basicamente se concentra no estudo da Administração Pública e da atividade de seus integrantes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Direito_constitucional</IRI>
+        <Literal>Direito constitucional é o ramo do direito público interno dedicado à análise e interpretação das normas constitucionais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Direito_privado</IRI>
+        <Literal>O Direito Privado visa disciplinar as relações inter-individuais, e os interesses privados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Direito_público</IRI>
+        <Literal>O direito público se refere ao conjunto das normas jurídicas de natureza pública, compreendendo tanto o conjunto de normas jurídicas que regulam a relação entre o particular e o Estado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Direito_tributário</IRI>
+        <Literal>O direito tributário é ramo didaticamente autônomo do direito público que estuda validade e eficácia das normas jurídico-tributárias, que impõe o dever constitucional de pagar tributos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Documento</IRI>
+        <Literal>Forma de representar/armazenar informações.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dívida_ativa</IRI>
+        <Literal>A dívida ativa é o cadastro, seja municipal, estadual ou federal, que reúne as informações de todas as pessoas que possuem algum tipo de débito com a respectivo Ente Federado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Edital</IRI>
+        <Literal>O edital é uma publicação feita na Internet (na página do tribunal em que tramita o processo e na plataforma de editais do CNJ) e fixada em meio físico no prédio do respectivo tribunal. Ocorre quando não foi possível citar o devedor por AR ou Oficial de Justiça.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Execução_fiscal</IRI>
+        <Literal>Procedimentos específicos que o Ente Político, por meio de sua procuradoria, deve utilizar para obter a satisfação do seu crédito tributário. Disciplina contida na Lei nº 6.830/80.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fato_gerador</IRI>
+        <Literal>Concretização da hipótese de incidência prevista em lei no mundo dos fatos. Ou seja, a lei prevê que a propriedade de bem imóvel dentro da cidade implica na incidência do IPTU (hipótese de incidência), mas só haverá fato gerador quando alguém for de fato proprietário de um bem imóvel urbano.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fato_gerador</IRI>
+        <Literal>Fato Gerador de IPTU: O imposto, de competência dos Municípios, sobre a propriedade predial e territorial urbana tem como fato gerador a propriedade, o domínio útil ou a posse de bem imóvel por natureza ou por acessão física, como definido na lei civil, localizado na zona urbana do Município.
+
+Para os efeitos deste imposto, entende-se como zona urbana a definida em lei municipal, observado o requisito mínimo da existência de melhoramentos indicados em pelo menos dois dos itens seguintes, construídos ou mantidos pelo Poder Público:
+
+I – meio-fio ou calçamento, com canalização de águas pluviais;
+
+II – abastecimento de água;
+
+III – sistema de esgotos sanitários;
+
+IV – rede de iluminação pública, com ou sem posteamento para distribuição domiciliar;
+
+V – escola primária ou posto de saúde a uma distância máxima de 3 (três) quilômetros do imóvel considerado.
+
+A lei municipal pode considerar urbanas as áreas urbanizáveis, ou de expansão urbana, constantes de loteamentos aprovados pelos órgãos competentes, destinados à habitação, à indústria ou ao comércio, mesmo que localizados fora das zonas definidas nos termos especificados acima.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fisco</IRI>
+        <Literal>Gestor da fiscalização e arredação dos tributos, existindo nas esferas municipais, estaduais, distrital e federal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fisco_distrital</IRI>
+        <Literal>Receita Federal do Distrito Federal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fisco_estadual</IRI>
+        <Literal>Fazendas estaduais</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fisco_federal</IRI>
+        <Literal>Receita federal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fisco_municipal</IRI>
+        <Literal>Fazenda municipal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hipótese_de_incidência_tributária</IRI>
+        <Literal>Hipótese trazida em lei que determina em quais situações quando concretizada no mundo do fatos fará incidir um fato gerador de uma obrigação tributária.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Homem</IRI>
+        <Literal>O ser humano do sexo masculino.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Impeditivo_da_execução_fiscal</IRI>
+        <Literal>O fisco não poderá exigir ou executar (execução fiscal) o crédito tributário quando se verificar alguma das hipóteses de impedimento.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Impeditivo_por_exclusão</IRI>
+        <Literal>Hipótese que sequer permite que o crédito tributário seja constituído.
+
+- Anistia
+- Isenção</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Impeditivo_por_extinção</IRI>
+        <Literal>Hipóteses que extinguem um crédito tributário existente.
+
+- Decadência
+- Pagamento
+- Prescrição</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Impeditivo_por_suspensão</IRI>
+        <Literal>Hipóteses que suspendem a exigência do crédito tributário.
+
+- Moratória
+- Parcelamento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Imposto</IRI>
+        <Literal>Encargo pecuniário devido ao Estado e instituído por lei, possuindo determinada hipótese de incidência e sem vincução quanto o destino de sua arrecadação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Imposto_sobre_a_propriedade_predial_e_territorial_urbana</IRI>
+        <Literal>Nos termos do próprio Código Tributário (CTN), o imposto territorial e predial urbano (IPTU) é  de competência dos Municípios. O IPTU incide sobre a propriedade predial e territorial urbana, tendo como fato gerador a propriedade, como definido na lei civil, localizado na zona urbana do Município.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Imposto_sobre_a_transmissão_de_bens_imóveis</IRI>
+        <Literal>ITBI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Imposto_sobre_serviços_de_qualquer_natureza</IRI>
+        <Literal>ISSQN ou ISS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Juiz</IRI>
+        <Literal>Órgão responsável por realizar a atividade jurisdicional e determinar a solução do conflito com base na lei e observância à Constituição.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Juiz-federal</IRI>
+        <Literal>Pessoa (dentro do direito o correto é se referir como órgão) que detém jurisdição para jugar questões que envolvam matéria de sua competência federal (II, IE, IR, ITR, IPI e IOF)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Juiz_estadual</IRI>
+        <Literal>Pessoa (dentro do direito o correto é se referir como órgão) que detém jurisdição para jugar questões que envolvam matéria de sua competência (estadual + municipal). No caso, a execução dos impostos estaduais - IPVA - ICMS - ITCMD e impostos municipais - IPTU - ISS - ITBI.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Jurisdicionado</IRI>
+        <Literal>Pessoa submetida ao Poder Judiciário, no sentido de poder recorrer a ele para obter seus direitos assegurados, bem como para cumprir suas decisões.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lançamento</IRI>
+        <Literal>Procedimento administrativo tendente a verificar a ocorrência do fato gerador da obrigação correspondente, a fim de determinar a matéria tributável, calcular o montante do tributo devido, identificar o sujeito passivo e, sendo caso, propor a aplicação da penalidade cabível.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lançamento_de_ofício</IRI>
+        <Literal>Modalidade em que o Fisco sozinho realiza o lançamento. Não há necessidade que o devedor informe nada, o Fisco sabe (ou pensa saber) de tudas as informações necessarias para o ato.
+Pode se sobrepor a todas às outras modalidades (declaração e homologação) quando necessário.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lançamento_por_declaração</IRI>
+        <Literal>Modalidade de lançamento em que o Fisco precisa de infromações do contribuinte. Ou seja, o contribuinte deve dar declarações (dados) ao Fisco para que ele possa verificar o montante devido e lançar.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lançamento_por_homologação</IRI>
+        <Literal>Ocorre quando o contribuinte é quem apura e paga o tributo,
+cabendo ao Fisco decidir se a quantia paga é certa ou correta. Ou sjea, se paga primeiro e depois será visto se o pagamento está correto, essa verificação se chama homolgação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Legislação</IRI>
+        <Literal>No direito tributário legisalção é entendida como o gênero de várias espécies de atos normativos (primários e secundários). Ou seja, compreende as leis, os tratados e as convenções internacionais, os decretos e as normas complementares que versem, no todo ou em parte, sobre tributos e relações jurídicas a eles pertinentes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lei</IRI>
+        <Literal>Conjunto de normas gerais e abstratas elaboradas pelo Poder Legislativo que estabelecem direitos, deveres e conceitos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lei_complementar</IRI>
+        <Literal>Categoria de lei que a Constituição Federal determinou que poderá disciplinar certas matérias. Possui quórum diferenciado, ou seja, exige maioria absoluta para ser aprovada.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lei_ordinária</IRI>
+        <Literal>Categoria de lei que, em regra, institui a maioria dos tributos. Pode disciplinar qualquer matéria que não seja reservada às leis complementares, seu quórum de aprovação é de maioria simples.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mulher</IRI>
+        <Literal>O ser humano do sexo feminino.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Norma_complementar</IRI>
+        <Literal>Norma que exige quórum específica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Obrigação_tributária</IRI>
+        <Literal>Vínculo que une o contribuinte/responsável (devedor) e o Fisco (município, estado, DF ou União) e decorre da ocorrêncai de um fato gerador.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Obrigação_tributária_acessória</IRI>
+        <Literal>Prestar informações e cuidar da contabilidade.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Obrigação_tributária_principal</IRI>
+        <Literal>Pagar o tributo exigido pelo Fisco dentro do prazo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Petição_inicial</IRI>
+        <Literal>Documento que contém uma série de informações relativos aos fatos e ao direito da questão trazida à apreciação do Poder Judiciário.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Procurador_da_república</IRI>
+        <Literal>Membro do Ministério Público Federal. Atua como fiscal da ordem jurídica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Promotor</IRI>
+        <Literal>Membro o MInistério Púiblico Estadual que atua como fiscal da ordem jurídica. Ou seja, deve cuidar para que tudo ocorra nos termos da lei.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Renajud</IRI>
+        <Literal>Sistema integrado com o Detran que permite registrar um veículo como afetado pelos atos de execução forçada.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Responsável</IRI>
+        <Literal>Pessoa que a lei pode determinar ser responsável por certo tributo, mesmo não sendo ela o contribuinte em si.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Serventuário</IRI>
+        <Literal>Servidor público responsável por atividades jurídicas e administrativas, tarbalhando sob direção de autoridade superior.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sistema</IRI>
+        <Literal>Conjunto ordenado de instruções que devem ser seguidas e/ou executadas, na manipulação, redirecionamento ou modificação de um dado ou acontecimento a fim de um objetivo específico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Taxa</IRI>
+        <Literal>Taxas são exigidas pelo exercício regular do poder de polícia, ou a utilização, efetiva ou potencial, de serviço público específico e divisível, prestado ao contribuinte ou posto à sua disposição.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Taxa_de_polícia</IRI>
+        <Literal>A tava decorrente do poder de polícia ocorrerá quando se verificar atividades da administração pública que, limitando ou disciplinando direito, interesse ou liberdade, regula a prática de ato ou abstenção de fato, em razão de interesse público concernente à segurança, à higiene, à ordem, aos costumes, à disciplina da produção e do mercado, ao exercício de atividades econômicas dependentes de concessão ou autorização do Poder Público, à tranquilidade pública ou ao respeito à propriedade e aos direitos individuais ou coletivos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Taxa_de_serviço</IRI>
+        <Literal>A taxa decorrente do serviço público ocorre em razão da disponibilidade ou efetivo uso de utilidades ou comodidades materiais específicas destinadas à satisfação geral, porém, sendo fruível de forma que permita a individualização de cada indivíduo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tratado_internacional</IRI>
+        <Literal>Consiste em um ajustes solenes concluídos entre Estados e/ou organizações internacionais, cujo objeto/finalidade têm alta importância. No direito tributária, as normas de decorrentes de tratados internacionais revogam ou modificam a legislação tributária interna, e serão observados pela que lhes sobrevenha.
+
+Atenta-se que, nas palvaras de Valério Mazzuoli, &quot; a distinção entre tratado e convenção, todavia, não subsiste a uma análise detalhada dos textos normativos internacionais, o que demonstra que ambos os significados ainda se confundem na atualidade.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tributo</IRI>
+        <Literal>Prestação pecuniária compulsória, em moeda ou cujo valor nela se possa exprimir, que não constitua sanção de ato ilícito, instituída em lei e cobrada mediante atividade administrativa plenamente vinculada.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
